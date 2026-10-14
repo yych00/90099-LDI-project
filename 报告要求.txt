@@ -1,0 +1,189 @@
+This preliminary report should be around 4-5 pages long per student excluding title, references, table of contents. You should clearly identify which student has written which section. We will take points if a report is too long!
+
+The preliminary report should be uploaded as a PDF file. We will deduct a significant number of points if there is no separate PDF submission!
+
+You should also upload your existing, possibly incomplete, code as a separate zip file. The code should be structured, explained with a brief README, and commented enough to be easy to follow. This will be a group submission. However, all marking in this subject is individual.
+
+The draft report should show the intended structure of the final report using (sub)section headers and bullet points. It is fine if some sections are empty or incomplete. The goal is to show the structure of your report so that we can give you some feedback for the final version. Initial results, graphs, and tables are encouraged. The introduction and overview of project should be as complete as possible. Please refer to the Subject (LDI) Project page and manual for recommendations and hints.
+
+As part of this assignment, you will also have a chance to take part in peer review, which involves providing anonymous comments to your fellow students. This is intended solely to help you jointly improve your final project reports. We will not take student comments or peer review scores into account when marking reports! 
+
+Please do not wait until the last minute to submit your report, as we will take points off for late submissions.
+
+The rubric below should also help clarifying the expectations. This assignment corresponds to 15% of your total subject score. 
+
+----------
+
+Prelim Report
+Criteria	Ratings	Points
+Report Structure and Style
+view longer description
+
+Full Marks
+Nearly perfect, professional looking
+15 pts
+
+High distinction
+Excellent structure, layout and appearance. A pleasure to read.
+14 pts
+
+Distinction
+Well structured. Deliberate, useful and correct application of sectioning, appendices, tables and figures. Uncluttered appearance, layout good. Very good use of language.
+11 pts
+
+Fair report
+Reasonably well structured. Reasonable use of figures and tables. Layout and appearance ok. Good grammar.
+9 pts
+
+Clear pass
+Structure ok. Layout or appearance cluttered, not easy to look at. Insufficient use of figures, space, etc. Grammar ok.
+7 pts
+
+Marginal
+Structure requires work, inappropriate or disordered sectioning, etc. Cluttered layout and appearance, little use of figures, space, etc. Insufficient proof reading. Readable.
+5 pts
+
+Insufficient effort
+Little or no structure, cluttered appearance. Little or no proof reading. Difficult to read.
+3 pts
+
+Substandard effort
+The effort in this aspect is clearly substandard.
+1 pts
+/15 pts
+Problem and Task Formulations
+view longer description
+
+Full Marks
+Nearly perfect, professional quality
+25 pts
+
+High distinction
+Problems are well-defined. Statements of the tasks are crystal clear. Connections to subject materials clearly identified. Testing methods and criteria are clearly described.
+23 pts
+
+Distinction
+Tasks are clearly stated. Limited explanation of how tasks relate to theory. Testing methods and criteria are clearly described.
+20 pts
+
+Fair report
+Tasks are stated but partly unclear. Connections to subject material in parts missing. Testing methods and intended outcomes are not very clear.
+15 pts
+
+Clear pass
+Tasks are partly stated. Connections to subject material in parts missing. Testing methods and intended outcomes are not clear.
+11 pts
+
+Marginal
+Tasks are vaguely stated. Connections to subject material mostly missing. Testing methods and intended outcomes are very unclearly stated, though still make some sense.
+8 pts
+
+Insufficient effort
+Problems are not explained at all. Statement of the tasks is non-existent or makes no sense. No connection to subject material. Limited explanation of testing methods or intended outcomes.
+5 pts
+
+Substandard effort
+The effort in this aspect is clearly substandard.
+2 pts
+/25 pts
+Design and initial experiments
+view longer description
+
+Full Marks
+Nearly perfect, professional quality
+30 pts
+
+High distinction
+Use of sophisticated and multiple methods to achieve the chosen LDI tasks. Designs are explained very clearly. Meaningful comparisons between multiple and diverse methods. Appropriate methods chosen from deep learning. Comparisons with classical ML and modern AI methods. Clear path to a high-quality final report is obvious.
+27 pts
+
+Distinction
+Use of relevant methods to achieve the chosen LDI tasks. Designs are explained clearly. Comparisons between multiple methods planned or shown. Appropriate methods chosen from deep learning.  Shows promise towards a high-quality final report.
+24 pts
+
+Fair report
+Mostly relevant methods to achieve the chosen LDI tasks. Designs are explained not very clearly but still make sense. Limited comparisons between methods planned or shown.  Shows promise towards a good quality final report.
+21 pts
+
+Clear pass
+One or two of the obviously relevant methods are missing. Designs are not explained well but still make sense. Limited comparisons between methods planned or shown. Some obvious directions are not sufficiently explored.  Shows promise towards a passing final report.
+15 pts
+
+Marginal
+Clear mistakes in one of the methods. The designs are not explained properly.  Limited comparisons between methods planned or shown. Multiple options from deep learning are not sufficiently explored.
+12 pts
+
+Insufficient effort
+The methodology used to achieve the described LDI tasks is mainly unclear. The designed solutions are confusing or do not make sense. Multiple errors or omissions in deep learning methods.
+6 pts
+
+Substandard effort
+The effort in this aspect is clearly substandard.
+3 pts
+/30 pts
+Background, literature survey and references
+view longer description
+
+Full Marks
+Excellent, professional quality
+10 pts
+
+High distinction
+Background material is succinctly presented with solid referencing, indicating thorough research has been done. No irrelevant material is presented.
+9 pts
+
+Distinction
+Background material is well presented in context with good referencing, indicating authors' good understanding of the material.
+8 pts
+
+Fair
+Relevant background material is presented with reasonable referencing, indicating that authors have reasonable understanding of the material with some flaws. Some irrelevant material is presented.
+7 pts
+
+Pass
+Background material is presented with incomplete referencing, indicating that authors have limited understanding of the material.
+5 pts
+
+Marginal
+Some background material is presented with random referencing, indicating that authors have little or no understanding of the material. Irrelevant material dominates the background section of the report.
+4 pts
+
+Low effort
+No background material or literature survey are provided. No indication of any research is done.
+2 pts
+/10 pts
+Initial code evaluation
+view longer description
+
+Full Marks
+Nearly perfect, professional quality
+20 pts
+
+High distinction
+The code is very well structured and easy to follow due to excellent commenting. A well-written README file guides the reader. Some parts are still incomplete but no obvious bugs or errors. Very good quality code.
+18 pts
+
+Distinction
+The code has a proper structure and is easy to follow due to very good commenting. A well-written README file guides the reader. Some parts are still incomplete but no obvious bugs or errors. Good quality code.
+16 pts
+
+Fair report
+The code is structured well but comments are missing in some places, making it somewhat difficult to follow.  README file could have been better. Some obvious bugs and errors. Medium quality code.
+14 pts
+
+Clear pass
+The code is structured well enough but comments are missing in some places, making it somewhat difficult to follow.  README file is OK. Obvious bugs and errors. Borderline quality code.
+10 pts
+
+Marginal
+The code is structure and comments are not good enough, making it difficult to follow.  README file is missing. Many obvious bugs and errors. Low quality code.
+8 pts
+
+Insufficient effort
+The code is badly structured and almost no comments, making the code very difficult to follow.  README file is missing. Code does not make sense in many places. Very low quality code.
+4 pts
+
+Substandard effort
+The effort in this aspect is clearly substandard.
+2 pts
+/20 pts

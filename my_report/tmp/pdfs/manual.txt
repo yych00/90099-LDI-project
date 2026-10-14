@@ -1,0 +1,211 @@
+             Learn-Design-Implement (LDI) Project [6 weeks]
+
+
+Table of Contents
+Learn-Design-Implement (LDI) Project [6 weeks] ..................................................................... 1
+  Project Objectives and ILOs ................................................................................................ 1
+     Objectives ...................................................................................................................... 1
+     Intended Learning Outcomes (ILOs) ................................................................................ 2
+  Project Scope ..................................................................................................................... 2
+  Project Tasks and Suggested Timeline ................................................................................. 2
+     Starting Point .................................................................................................................. 2
+     Project Principles ............................................................................................................ 2
+     Suggested Timeline ......................................................................................................... 3
+  Project Deliverables ........................................................................................................... 3
+     Expected Deliverables .................................................................................................... 4
+     Suggested Report Structure............................................................................................. 4
+  Special Remarks for PhD Students ...................................................................................... 5
+
+
+
+Project Objectives and ILOs
+This project has multiple objectives as listed below. Although you will (in most cases) work as a
+team, your work will be evaluated individually using rubrics based on these broad objectives and
+intended learning outcomes. Therefore, you must understand the objectives and ILOs below.
+
+Objectives
+    1. Learn: The first goal of this project is to teach you a deeper understanding of the
+       ELEN90099 topics through “learning by doing” at your own pace. In this project, you will
+       explore connections between these topics, their theoretical background, and how they
+       are applied to practical problems.
+    2. Design: The second goal of the project is to teach you how to design engineering
+       solutions using the methods you have learned, measure success, iterate designs, and
+       explain your design choices based on what you have learned in ELEN90099.
+    3. Implement: The project's third goal is to encourage you to take initiative in your learning.
+       Specifically, this means acquiring the necessary tools (data, software), scoping a
+       feasible plan, and productively managing the time to implement your engineering
+       solutions to realise your designs.
+    4. Present: The fourth goal of the project is to let you practice communicating what you
+       have done and why using various methods, such as making a short presentation,
+       answering questions about the project, and writing a proper project report.
+Intended Learning Outcomes (ILOs)
+   •   Learning the key concepts of the ELEN90099 subject and connections between these.
+   •   Learning practical skills on how to implement engineering solutions and how to connect
+       theory with practice.
+   •   Learning how to design a solution, measure outcomes, iterate design as needed, make
+       informed design choices, and provide engineering justifications for them.
+   •   Acquiring professional skills such as project planning, time management, and
+       teamwork.
+   •   Learning to present your work in different formats and answer relevant questions.
+
+Project Scope
+   •   You are expected to use and emphasise the methods and topics covered in ELEN90099.
+       The goal is to learn and practice deep learning and how to apply it to engineering.
+       Alternative solutions from beyond the scope of ELEN90099, that are irrelevant to the
+       subject, will not get marks even if they work well in practice. Please check with your
+       lecturer when in doubt.
+   •   You are expected to take initiative. This is your project. You decide what to do and how as
+       long as they are aligned with objectives and ILOs. We are happy to provide you
+       with individualised support!
+   •   The project application area is not that important; it is there for motivation and in
+       alignment with your other interests. Groups doing a project in Area A are not advantaged
+       or disadvantaged over Area B in any way.
+   •   You are not expected to come up with novel or fully complete solutions to big problems.
+       This is only a 6-week student learning project, not a capstone or MPhil/PhD thesis.
+   •   You are encouraged to seek help from your demonstrators and instructor. You must
+       discuss the broad project plan with your demonstrator and/or instructor.
+
+Project Tasks and Suggested Timeline
+Each project will have an overarching theme or area. We will provide you with specific choices as
+examples, but you are not bound by these. However, those who wish to work in an area of their
+liking should talk to the instructor before the project starts.
+
+Given the limited time (6 weeks), you are expected to carefully scope your project following the
+recommendations below. Priority should be given to learning. This is not a capstone and the
+goal here is not achieving the big goal (e.g. creating a fully working autonomous driving solution).
+The goal is to learn/apply ELEN90099 topics as much as possible under the umbrella theme. A
+working solution does not guarantee and may not even lead to full marks.
+
+Starting Point
+Please see the project structure document and the baseline example provided.
+
+Project Principles
+   •   Students should learn and explain the inner workings of the methods they use in the
+       projects. ELEN90099 lectures should be used as guidelines to judge the amount of
+       detail and depth in this.
+   •   Projects should clearly explain the engineering design process and how design
+       objectives/constraints shape the problem formulations.
+  •    Projects should compare/contrast approaches, and methods and discuss outcomes
+       (metrics, solutions) using ELEN90099 knowledge with a focus on deep learning.
+  •    Self-proposed projects are welcome as long as the students intending to do them
+       contact the instructor as early as possible. If you are late, then you have to work on a
+       standard project. As you can imagine, self-proposed projects often mean more work!
+
+
+
+
+Suggested Timeline
+
+ Week      Tasks                                        Achieve
+ before    • Choose a project and discuss it with       • The project was chosen by Week 1
+              the instructor and/or demonstrators          of the project workshop.
+   1       • Scope the problem and tasks.               • Setup and data
+           • Find/generate relevant data sets.             generation/download completed.
+                                                        • Problem definition clear, tasks
+                                                           defined.
+   2       •   Design your approach and choose          • Baseline model results on first
+               which deep learning models will be          dataset
+               used                                     • Report skeleton (section headers)
+           •   Implement a baseline model
+           •   Plan your report
+   3       •   Alternative models and datasets          •   Additional results
+           •   Continue documenting your progress       •   Some result graphs/tables within
+                                                            the report
+   4       •   Refine models, compare & contrast        •   Interpretation of results
+           •   Feature importance                       •   Report writing progress
+
+   5       •   Analysis of solutions                 •      Complete and submit a draft report
+           •   Enough results for the draft report
+   6       •   Validation of results, hyperparameter •      Ready for questions (oral exam)
+               tuning, etc.                          •      Plans ready for completing the final
+                                                            report and presentation video
+
+
+Project Deliverables
+
+  •    By the end of Week 11 (see announcements on Canvas)
+           o Draft report plus initial code
+  •    During Week 12 (see announcements on Canvas)
+           o Oral exam (in the form of a Q&A session)
+  •    During the Final Exam period (see announcements on Canvas)
+           o Full project report and project code
+           o A brief recorded video (3 mins maximum) presenting the project
+Expected Deliverables
+Here are basic guidelines regarding what is expected in the deliverables. We will also create and
+disseminate specific rubrics in alignment with these expectations.
+
+   •   Draft report: around 4-5 pages per student excluding title, references, and table of
+       contents. The full report structure as (sub)section headers should be included even if
+       some sections are empty. The goal is to structure your report properly and give you some
+       feedback for the final report. It can be incomplete with content in some sections missing.
+       Initial results/graphs/tables are encouraged. An introduction and overview of the project
+       should be there.
+   •   Initial project code: this can be a work in progress but still should be structured and
+       commented on to some extent. Code can be in the form of a Jupyter notebook with text
+       sections briefly explaining it or a zip file containing Python scripts along with a brief
+       README explaining which script is doing what.
+       This submission will allow us to provide you with feedback and suggestions.
+   •   Final project report: at most 10 pages per student including everything, i.e. 20 pages for
+       a group of 2 and 30 pages for groups of 3. You should identify who has written which parts
+       in section headers. The report should be written in clear language, present the project
+       results, discuss ELEN90099 topics, and follow the best practices. A report structure and
+       content suggestions will be provided.
+   •   Project video presentation (recorded): at most 3 minutes per project summarising the
+       project’s achievements. Note that if you are doing a project using one of the standard
+       examples provided, there is no need to waste time on background information. Please
+       focus on what you have done (achieved) as a group. As an example, you can build a
+       narrative around Problem(s), Approach, Design, (theoretical) Analysis, and Outcomes.
+   •   Final project code: this will be integral to the report and follow the same guidelines as
+       the initial report. Projects without code will receive zero marks because we cannot verify
+       what you say you have achieved!
+   •   Oral Examination: approximately 3-5 minutes per student Q&A session led by the
+       instructor. Students may bring their notes to facilitate the discussion. The examination
+       will focus on the actual tasks, design, implementation, and results of the project rather
+       than the overarching project area, especially if you use standard starter kits. Specific
+       rubrics will be provided in Canvas.
+   •   Scaling for group size: the default size of groups is 2. Everything including the
+       expectations scales up with a multiplier of 1.5 for groups of 3 and scales down for a
+       group of 1 student in those exceptional cases.
+
+
+Suggested Report Structure
+
+   ▪   Introduction (10-20% of page allocation)
+           o Overview and background (especially relevant for self-proposed projects,
+              otherwise keep short)
+           o Literature overview, state of the art in the domain
+           o Project scope and tasks (important to clarify at a high level!)
+   ▪   Problem Definition and Scope (30-40% of page allocation)
+           o  Define problem
+           o  Relevant datasets
+           o  Approach and methods: deep learning models
+           o  Theory section: connect the theoretical background of the solution method
+              used in the project – do not simply copy-paste slides!
+   ▪   Experiments (30-40% of page allocation)
+          o Experiment setup
+          o Experiment results, validation
+          o Compare and contrast deep learning models
+          o Suggest solutions using alternatives (classical or foundation models)
+          o Discussion and interpretation
+   ▪   Conclusion (10-20% of page allocation)
+          o Reflection and broad discussion
+          o Future directions that immediately follow from the project (e.g., tasks for which
+              you did not have time)
+   ▪   References
+          o Practice best practices in this important area!
+
+
+
+
+Special Remarks for PhD Students
+If you are a PhD student and formally enrolled on the subject, you are:
+
+   1. Encouraged to work alone possibly within the standard project structure.
+   2. Alternatively, very welcome to design a project aligned with your PhD topics (as long as
+      the project satisfies the principles described) and work on it alone. Please contact the
+      instructor as early as possible on this.
+
+Note that, these are for fairness purposes (a group with a PhD student has an unfair advantage).
+Moreover, only pass/fail matters for PhD students because they don’t have a reported
+WAM/GPA in their studies.
+

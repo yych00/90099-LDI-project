@@ -1,0 +1,104 @@
+   Learn-Design-Implement (LDI) Project Structure and Suggestions
+
+
+Contents
+  Learn-Design-Implement (LDI) Project Structure and Suggestions........................................ 1
+    Project Structure and Requirements ................................................................................ 1
+    Project Options ............................................................................................................... 2
+    Self-proposed Projects.................................................................................................... 3
+    PhD Students.................................................................................................................. 3
+
+
+
+
+ELEN90099 LDI project aims to achieve the objectives and ILOs listed in the manual. We need
+to balance these against your “individualised learning.” Therefore, we impose a specific
+structure to ELEN90099 LDI projects while giving you as much freedom as possible. We will
+provide you an “example” project along with many resources and options so that you make
+most of ELEN90099 LDI project in your own way.
+
+Project Structure and Requirements
+Each project should have the following structure and satisfy the requirements listed below.
+
+   1. Choose an engineering domain: e.g. communications, power systems, robotics, etc.
+   2. Choose a specific engineering system in that domain, e.g. wireless comms, solar PV,
+      robotic arm, …
+   3. Define an engineering problem, e.g. traffic analysis, solar output forecasting, robotic
+      arm predictive maintenance
+   4. Find (or generate) datasets related to that system and problem
+   5. Analyse and solve the problem using deep learning methods.
+   6. [optionally] Use foundation models (LLMs) in conjunction with deep learning.
+   7. Store your results in a database, preferably use vector database options
+   8. (If time permits compare to baseline methods from foundation models or classical
+      machine learning.)
+Project Options
+There is a rich variety of choices based on your background, course, and interests. Here are a
+few options from different engineering domains.
+
+   •   You don’t have to use one of the suggested datasets; you can use different ones! In
+       many cases, there are multiple alternative suggestions, so choose the one you like.
+   •   You can and should further articulate and scope the suggested problems.
+   •   Consider alternative methods from foundation models or classical machine learning to
+       compare against your deep learning solution.
+
+
+1. Mobile Phone Activity in a City (Communications)
+   •   Analyse and forecast call, SMS, and internet activity in a city area using deep learning.
+   •   The dataset divides the city into a rectangular grid. A subset of the grid could be
+       selected to make the problem size more manageable. See
+       https://www.kaggle.com/datasets/marcodena/mobile-phone-activity/data
+       https://github.com/arunasubbiah/milan-telecom-data-modeling
+
+2. Solar PV forecasting and battery optimisation (Power Systems)
+   •   Analyse and forecast Solar PV generation data such as this one using various deep
+       learning methods
+       https://www.kaggle.com/datasets/pythonafroz/daily-power-production-data-of-solar-
+       power-plant
+   •   Analyse and forecast electricity prices using deep learning time-series forecasting
+       https://www.kaggle.com/datasets/aramacus/electricity-demand-in-victoria-australia
+       https://www.aemo.com.au/energy-systems/electricity/national-electricity-market-
+       nem/data-nem/aggregated-data
+
+3. Fault detection and predictive maintenance (Manufacturing)
+   •   Use deep learning methods to do predictive maintenance and predict machine failures
+       https://www.kaggle.com/datasets/stephanmatzka/predictive-maintenance-dataset-
+       ai4i-2020
+       https://archive.ics.uci.edu/dataset/963/ur3+cobotops
+       https://github.com/boschresearch/CNC_Machining
+   •   Predict remaining useful life (RUL)
+       https://www.kaggle.com/datasets/prognosticshse/preventive-to-predicitve-
+       maintenance
+
+4. Cybersecurity and Network Security (Security, Communications)
+   •   Use deep learning methods to detect anomalies and/or specific attacks
+       https://archive.ics.uci.edu/dataset/942/rt-iot2022
+       https://www.kaggle.com/datasets/emilynack/aci-iot-network-traffic-dataset-2023/data
+   •   Investigate adversarial machine learning with attacks to ML models and adversarial
+       training as a counter measure
+       https://github.com/Trusted-AI/adversarial-robustness-toolbox
+       https://github.com/andreaventuri01/DReLAB_tutorial
+5. Time Series forecasting – State of the Art Methods (Engineering)
+   •   Study and implement state of the art time series forecast models such as transformers
+       and modern RNN variants
+       https://github.com/thuml/Time-Series-Library
+   •   Apply these methods to engineering datasets such as web traffic, electricity demand,
+       smart meter data
+       https://www.kaggle.com/datasets/konradb/monash-time-series-forecasting-repository
+   •   Compare your results to LSTM, GRU, ARMAX baselines and provide a detailed analysis
+   •   If time permits, try major available foundation models as another set of comparison
+
+
+
+Self-proposed Projects
+Self-proposed projects are allowed only if they are explicitly approved by the lecturer (not the
+demonstrator). As you can expect, the lecturer will try to make sure that your creative project
+somehow incorporates the aspects listed in the requirements because the idea is for you to get
+hands-on experience with those. Please keep this in mind when proposing projects.
+
+
+
+PhD Students
+Formally enrolled PhD students can (maybe should) align the LDI project with their research
+topics as much as possible. All PhD students must talk to the lecturer about the LDI project
+before starting.
+

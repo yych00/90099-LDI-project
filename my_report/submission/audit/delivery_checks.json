@@ -1,0 +1,19 @@
+{
+  "code_zip_mib": 2.23,
+  "code_zip_files": 117,
+  "archive_integrity": true,
+  "total_runs": 72,
+  "all_results_verified": true,
+  "contract_tests": 34,
+  "extracted_contract_tests": 34,
+  "report_pages": {
+    "EN": 11,
+    "CN": 11
+  },
+  "body_pages": {
+    "EN": 9,
+    "CN": 9
+  },
+  "authors": "intentionally pending user input",
+  "old_files_preserved": true
+}

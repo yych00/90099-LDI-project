@@ -1,0 +1,71 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand*\HyPL@Entry[1]{}
+\HyPL@Entry{0<</S/D>>}
+\citation{monash}
+\citation{electricity}
+\citation{solar}
+\citation{solar}
+\citation{lstm}
+\citation{gru}
+\citation{dlinear}
+\citation{patch}
+\citation{course}
+\HyPL@Entry{1<</S/D>>}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction, scope and literature}{1}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Engineering problem and motivation}{1}{subsection.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Research questions and measurable outcomes}{1}{subsection.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}Related methods and course connections}{1}{subsection.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.4}Preliminary status and report structure}{1}{subsection.1.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Data provenance and exploratory analysis}{2}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Release checks and frozen subset}{2}{subsection.2.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Fixed first-channel profiles and training-only correlation. The first seven source days are displayed without selecting an attractive forecast.}}{2}{figure.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Implications for model design}{2}{subsection.2.2}\protected@file@percent }
+\citation{mase}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Forecasting formulation and evaluation protocol}{3}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Information available at each origin}{3}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Chronological partition and standardisation}{3}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Metrics and aggregation}{3}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Forecast distance, conditional slices and dependence}{3}{subsection.3.4}\protected@file@percent }
+\citation{lstm}
+\citation{gru}
+\citation{dlinear}
+\citation{patch}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Model mechanisms and design choices}{4}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Two non-learning controls}{4}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Recurrent and convolutional networks}{4}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Hybrid CNN--LSTM}{4}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Decomposition and patch attention}{4}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Implementation, training and reproducibility}{5}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Initial experiment budget and validation selection}{5}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Measured environment and resources}{5}{subsection.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}What the code package records}{5}{subsection.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Initial results and comparative analysis}{6}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Electricity: daily structure is a strong control}{6}{subsection.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Solar: learn the daily baseline before adding complexity}{6}{subsection.6.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Initial main comparisons; error bars show training-seed variability, not confidence intervals over independent test days.}}{6}{figure.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}Horizon, conditional errors and difficult cases}{7}{section.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Lead time should be read in physical hours}{7}{subsection.7.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Mean per-lead MAE across main seeds; persistence omitted for legibility. Solar steps are ten minutes; Electricity steps are one hour.}}{7}{figure.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}A fixed hard-case rule, including imperfect forecasts}{7}{subsection.7.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces For the first frozen channel, select the origin containing the largest true test target; ties use the earliest origin. The rule never selects by a model error. Seed 42 is fixed, not chosen as the best seed.}}{7}{figure.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8}History and training-data sensitivity}{8}{section.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}Controlled design}{8}{subsection.8.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Single-seed controlled sensitivity; lines connect tested settings and do not imply interpolated performance or statistical significance.}}{8}{figure.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2}What can and cannot be inferred}{8}{subsection.8.2}\protected@file@percent }
+\citation{course}
+\@writefile{toc}{\contentsline {section}{\numberline {9}Engineering judgement, limitations and final-report plan}{9}{section.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.1}A provisional engineering choice}{9}{subsection.9.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.2}Limits that affect interpretation}{9}{subsection.9.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.3}Concrete path to the final report}{9}{subsection.9.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.4}Preliminary conclusion}{9}{subsection.9.4}\protected@file@percent }
+\bibcite{monash}{1}
+\bibcite{electricity}{2}
+\bibcite{solar}{3}
+\bibcite{lstm}{4}
+\bibcite{gru}{5}
+\bibcite{dlinear}{6}
+\bibcite{patch}{7}
+\bibcite{mase}{8}
+\bibcite{course}{9}
+\gdef \@abspage@last{11}

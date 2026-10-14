@@ -1,0 +1,72 @@
+window_Electricity_LSTM_L24_f1_s42_38afd723 1 train=0.50798 val=0.30999
+window_Electricity_LSTM_L24_f1_s42_38afd723 2 train=0.25502 val=0.23332
+window_Electricity_LSTM_L24_f1_s42_38afd723 3 train=0.20527 val=0.21106
+window_Electricity_LSTM_L24_f1_s42_38afd723 4 train=0.18684 val=0.20499
+window_Electricity_LSTM_L24_f1_s42_38afd723 5 train=0.17406 val=0.20103
+DONE window_Electricity_LSTM_L24_f1_s42_38afd723 265.5322933765397
+window_Electricity_PatchTST_L24_f1_s42_8755fb1b 1 train=0.28982 val=0.20378
+window_Electricity_PatchTST_L24_f1_s42_8755fb1b 2 train=0.22262 val=0.18929
+window_Electricity_PatchTST_L24_f1_s42_8755fb1b 3 train=0.21320 val=0.18746
+window_Electricity_PatchTST_L24_f1_s42_8755fb1b 4 train=0.20788 val=0.18425
+window_Electricity_PatchTST_L24_f1_s42_8755fb1b 5 train=0.20400 val=0.18278
+DONE window_Electricity_PatchTST_L24_f1_s42_8755fb1b 214.54678615761748
+window_Electricity_LSTM_L48_f1_s42_73c00dcf 1 train=0.50859 val=0.31292
+window_Electricity_LSTM_L48_f1_s42_73c00dcf 2 train=0.25599 val=0.23265
+window_Electricity_LSTM_L48_f1_s42_73c00dcf 3 train=0.20539 val=0.21249
+window_Electricity_LSTM_L48_f1_s42_73c00dcf 4 train=0.18705 val=0.20492
+window_Electricity_LSTM_L48_f1_s42_73c00dcf 5 train=0.17396 val=0.20311
+DONE window_Electricity_LSTM_L48_f1_s42_73c00dcf 266.08909086427707
+window_Electricity_PatchTST_L48_f1_s42_74340dfe 1 train=0.26969 val=0.18389
+window_Electricity_PatchTST_L48_f1_s42_74340dfe 2 train=0.20534 val=0.17136
+window_Electricity_PatchTST_L48_f1_s42_74340dfe 3 train=0.19607 val=0.16450
+window_Electricity_PatchTST_L48_f1_s42_74340dfe 4 train=0.18963 val=0.16324
+window_Electricity_PatchTST_L48_f1_s42_74340dfe 5 train=0.18490 val=0.16051
+DONE window_Electricity_PatchTST_L48_f1_s42_74340dfe 204.35699330113826
+window_Electricity_LSTM_L168_f1_s42_332c1d1d 1 train=0.50858 val=0.31285
+window_Electricity_LSTM_L168_f1_s42_332c1d1d 2 train=0.25592 val=0.23234
+window_Electricity_LSTM_L168_f1_s42_332c1d1d 3 train=0.20538 val=0.21264
+window_Electricity_LSTM_L168_f1_s42_332c1d1d 4 train=0.18702 val=0.20502
+window_Electricity_LSTM_L168_f1_s42_332c1d1d 5 train=0.17390 val=0.20242
+DONE window_Electricity_LSTM_L168_f1_s42_332c1d1d 266.2204181184828
+window_Electricity_PatchTST_L168_f1_s42_81ef84f6 1 train=0.20035 val=0.12809
+window_Electricity_PatchTST_L168_f1_s42_81ef84f6 2 train=0.14444 val=0.11406
+window_Electricity_PatchTST_L168_f1_s42_81ef84f6 3 train=0.13879 val=0.11398
+window_Electricity_PatchTST_L168_f1_s42_81ef84f6 4 train=0.13382 val=0.11109
+window_Electricity_PatchTST_L168_f1_s42_81ef84f6 5 train=0.13219 val=0.10771
+DONE window_Electricity_PatchTST_L168_f1_s42_81ef84f6 174.46615373373479
+window_Solar_LSTM_L144_f1_s42_8db7ca2f 1 train=0.81157 val=0.69843
+window_Solar_LSTM_L144_f1_s42_8db7ca2f 2 train=0.57894 val=0.43093
+window_Solar_LSTM_L144_f1_s42_8db7ca2f 3 train=0.39246 val=0.30169
+window_Solar_LSTM_L144_f1_s42_8db7ca2f 4 train=0.29391 val=0.26321
+window_Solar_LSTM_L144_f1_s42_8db7ca2f 5 train=0.25803 val=0.23557
+DONE window_Solar_LSTM_L144_f1_s42_8db7ca2f 3.783806340725961
+window_Solar_PatchTST_L144_f1_s42_ab9692b1 1 train=0.29626 val=0.20291
+window_Solar_PatchTST_L144_f1_s42_ab9692b1 2 train=0.21703 val=0.20091
+window_Solar_PatchTST_L144_f1_s42_ab9692b1 3 train=0.20404 val=0.18879
+window_Solar_PatchTST_L144_f1_s42_ab9692b1 4 train=0.19797 val=0.19789
+window_Solar_PatchTST_L144_f1_s42_ab9692b1 5 train=0.19097 val=0.18538
+DONE window_Solar_PatchTST_L144_f1_s42_ab9692b1 2.9933710871591717
+window_Solar_LSTM_L288_f1_s42_7b3fa0cc 1 train=0.81157 val=0.69843
+window_Solar_LSTM_L288_f1_s42_7b3fa0cc 2 train=0.57894 val=0.43093
+window_Solar_LSTM_L288_f1_s42_7b3fa0cc 3 train=0.39246 val=0.30173
+window_Solar_LSTM_L288_f1_s42_7b3fa0cc 4 train=0.28554 val=0.25193
+window_Solar_LSTM_L288_f1_s42_7b3fa0cc 5 train=0.24416 val=0.21068
+DONE window_Solar_LSTM_L288_f1_s42_7b3fa0cc 3.6438384468305838
+window_Solar_PatchTST_L288_f1_s42_91aeab6d 1 train=0.29643 val=0.19862
+window_Solar_PatchTST_L288_f1_s42_91aeab6d 2 train=0.22708 val=0.20208
+window_Solar_PatchTST_L288_f1_s42_91aeab6d 3 train=0.20893 val=0.18716
+window_Solar_PatchTST_L288_f1_s42_91aeab6d 4 train=0.20421 val=0.19202
+window_Solar_PatchTST_L288_f1_s42_91aeab6d 5 train=0.19487 val=0.17907
+DONE window_Solar_PatchTST_L288_f1_s42_91aeab6d 2.9617414500162265
+window_Solar_LSTM_L1008_f1_s42_fd3ef3d0 1 train=0.81157 val=0.69843
+window_Solar_LSTM_L1008_f1_s42_fd3ef3d0 2 train=0.57894 val=0.43093
+window_Solar_LSTM_L1008_f1_s42_fd3ef3d0 3 train=0.39247 val=0.30169
+window_Solar_LSTM_L1008_f1_s42_fd3ef3d0 4 train=0.29045 val=0.25440
+window_Solar_LSTM_L1008_f1_s42_fd3ef3d0 5 train=0.24462 val=0.21163
+DONE window_Solar_LSTM_L1008_f1_s42_fd3ef3d0 3.6674504127994063
+window_Solar_PatchTST_L1008_f1_s42_1750e59f 1 train=0.56748 val=0.24409
+window_Solar_PatchTST_L1008_f1_s42_1750e59f 2 train=0.23908 val=0.20914
+window_Solar_PatchTST_L1008_f1_s42_1750e59f 3 train=0.22242 val=0.20130
+window_Solar_PatchTST_L1008_f1_s42_1750e59f 4 train=0.22577 val=0.23664
+window_Solar_PatchTST_L1008_f1_s42_1750e59f 5 train=0.21217 val=0.18916
+DONE window_Solar_PatchTST_L1008_f1_s42_1750e59f 3.1760754977955243

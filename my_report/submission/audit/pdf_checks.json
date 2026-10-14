@@ -1,0 +1,20 @@
+{
+  "EN": {
+    "total_pages": 11,
+    "title_pages": 1,
+    "body_pages": 9,
+    "reference_pages": 1,
+    "nonempty_pages": true,
+    "text_within_margins": true,
+    "no_fabricated_student_ids": true
+  },
+  "CN": {
+    "total_pages": 11,
+    "title_pages": 1,
+    "body_pages": 9,
+    "reference_pages": 1,
+    "nonempty_pages": true,
+    "text_within_margins": true,
+    "no_fabricated_student_ids": true
+  }
+}

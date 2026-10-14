@@ -1,0 +1,72 @@
+fraction_Electricity_LSTM_L48_f0.25_s42_c35e7408 1 train=0.80818 val=0.50717
+fraction_Electricity_LSTM_L48_f0.25_s42_c35e7408 2 train=0.46101 val=0.40762
+fraction_Electricity_LSTM_L48_f0.25_s42_c35e7408 3 train=0.34977 val=0.33640
+fraction_Electricity_LSTM_L48_f0.25_s42_c35e7408 4 train=0.28511 val=0.30316
+fraction_Electricity_LSTM_L48_f0.25_s42_c35e7408 5 train=0.25201 val=0.28275
+DONE fraction_Electricity_LSTM_L48_f0.25_s42_c35e7408 310.6662989891653
+fraction_Electricity_PatchTST_L48_f0.25_s42_0b019d7d 1 train=0.39314 val=0.20158
+fraction_Electricity_PatchTST_L48_f0.25_s42_0b019d7d 2 train=0.24335 val=0.19113
+fraction_Electricity_PatchTST_L48_f0.25_s42_0b019d7d 3 train=0.22699 val=0.17506
+fraction_Electricity_PatchTST_L48_f0.25_s42_0b019d7d 4 train=0.21795 val=0.18108
+fraction_Electricity_PatchTST_L48_f0.25_s42_0b019d7d 5 train=0.21157 val=0.16593
+DONE fraction_Electricity_PatchTST_L48_f0.25_s42_0b019d7d 214.77242152634864
+fraction_Electricity_LSTM_L48_f0.5_s42_7b189ebc 1 train=0.64530 val=0.39264
+fraction_Electricity_LSTM_L48_f0.5_s42_7b189ebc 2 train=0.35283 val=0.28513
+fraction_Electricity_LSTM_L48_f0.5_s42_7b189ebc 3 train=0.26316 val=0.24068
+fraction_Electricity_LSTM_L48_f0.5_s42_7b189ebc 4 train=0.22010 val=0.21977
+fraction_Electricity_LSTM_L48_f0.5_s42_7b189ebc 5 train=0.19871 val=0.21030
+DONE fraction_Electricity_LSTM_L48_f0.5_s42_7b189ebc 277.2697057271047
+fraction_Electricity_PatchTST_L48_f0.5_s42_10f01070 1 train=0.31747 val=0.19251
+fraction_Electricity_PatchTST_L48_f0.5_s42_10f01070 2 train=0.22347 val=0.17956
+fraction_Electricity_PatchTST_L48_f0.5_s42_10f01070 3 train=0.21161 val=0.17315
+fraction_Electricity_PatchTST_L48_f0.5_s42_10f01070 4 train=0.20487 val=0.16827
+fraction_Electricity_PatchTST_L48_f0.5_s42_10f01070 5 train=0.19919 val=0.16554
+DONE fraction_Electricity_PatchTST_L48_f0.5_s42_10f01070 205.33342885263087
+fraction_Electricity_LSTM_L48_f1_s42_d02ad85c 1 train=0.50063 val=0.29943
+fraction_Electricity_LSTM_L48_f1_s42_d02ad85c 2 train=0.25117 val=0.22918
+fraction_Electricity_LSTM_L48_f1_s42_d02ad85c 3 train=0.20362 val=0.21661
+fraction_Electricity_LSTM_L48_f1_s42_d02ad85c 4 train=0.18674 val=0.20751
+fraction_Electricity_LSTM_L48_f1_s42_d02ad85c 5 train=0.17352 val=0.20253
+DONE fraction_Electricity_LSTM_L48_f1_s42_d02ad85c 261.13899471574086
+fraction_Electricity_PatchTST_L48_f1_s42_dad0fe53 1 train=0.26602 val=0.18453
+fraction_Electricity_PatchTST_L48_f1_s42_dad0fe53 2 train=0.20582 val=0.17276
+fraction_Electricity_PatchTST_L48_f1_s42_dad0fe53 3 train=0.19627 val=0.16647
+fraction_Electricity_PatchTST_L48_f1_s42_dad0fe53 4 train=0.19053 val=0.16133
+fraction_Electricity_PatchTST_L48_f1_s42_dad0fe53 5 train=0.18590 val=0.16068
+DONE fraction_Electricity_PatchTST_L48_f1_s42_dad0fe53 199.7433002792679
+fraction_Solar_LSTM_L288_f0.25_s42_ae7bfc01 1 train=0.95736 val=0.98380
+fraction_Solar_LSTM_L288_f0.25_s42_ae7bfc01 2 train=0.78268 val=0.84661
+fraction_Solar_LSTM_L288_f0.25_s42_ae7bfc01 3 train=0.70582 val=0.82548
+fraction_Solar_LSTM_L288_f0.25_s42_ae7bfc01 4 train=0.67336 val=0.79106
+fraction_Solar_LSTM_L288_f0.25_s42_ae7bfc01 5 train=0.62275 val=0.71232
+DONE fraction_Solar_LSTM_L288_f0.25_s42_ae7bfc01 5.943373400287774
+fraction_Solar_PatchTST_L288_f0.25_s42_4fdde156 1 train=0.41212 val=0.29250
+fraction_Solar_PatchTST_L288_f0.25_s42_4fdde156 2 train=0.21268 val=0.25817
+fraction_Solar_PatchTST_L288_f0.25_s42_4fdde156 3 train=0.19196 val=0.23834
+fraction_Solar_PatchTST_L288_f0.25_s42_4fdde156 4 train=0.18153 val=0.23158
+fraction_Solar_PatchTST_L288_f0.25_s42_4fdde156 5 train=0.17772 val=0.22529
+DONE fraction_Solar_PatchTST_L288_f0.25_s42_4fdde156 3.3221199353152273
+fraction_Solar_LSTM_L288_f0.5_s42_e8f1bf1f 1 train=0.87082 val=0.76619
+fraction_Solar_LSTM_L288_f0.5_s42_e8f1bf1f 2 train=0.67860 val=0.71597
+fraction_Solar_LSTM_L288_f0.5_s42_e8f1bf1f 3 train=0.56076 val=0.54386
+fraction_Solar_LSTM_L288_f0.5_s42_e8f1bf1f 4 train=0.37688 val=0.42931
+fraction_Solar_LSTM_L288_f0.5_s42_e8f1bf1f 5 train=0.26297 val=0.35634
+DONE fraction_Solar_LSTM_L288_f0.5_s42_e8f1bf1f 5.35714244541835
+fraction_Solar_PatchTST_L288_f0.5_s42_fe009c2b 1 train=0.28174 val=0.23212
+fraction_Solar_PatchTST_L288_f0.5_s42_fe009c2b 2 train=0.15653 val=0.20946
+fraction_Solar_PatchTST_L288_f0.5_s42_fe009c2b 3 train=0.14593 val=0.20700
+fraction_Solar_PatchTST_L288_f0.5_s42_fe009c2b 4 train=0.14665 val=0.20819
+fraction_Solar_PatchTST_L288_f0.5_s42_fe009c2b 5 train=0.14744 val=0.21120
+DONE fraction_Solar_PatchTST_L288_f0.5_s42_fe009c2b 3.2175441621169236
+fraction_Solar_LSTM_L288_f1_s42_1a46f0f1 1 train=0.80996 val=0.69344
+fraction_Solar_LSTM_L288_f1_s42_1a46f0f1 2 train=0.57513 val=0.42593
+fraction_Solar_LSTM_L288_f1_s42_1a46f0f1 3 train=0.37497 val=0.29807
+fraction_Solar_LSTM_L288_f1_s42_1a46f0f1 4 train=0.26941 val=0.22232
+fraction_Solar_LSTM_L288_f1_s42_1a46f0f1 5 train=0.23554 val=0.21859
+DONE fraction_Solar_LSTM_L288_f1_s42_1a46f0f1 3.7428735039280636
+fraction_Solar_PatchTST_L288_f1_s42_6dbedd13 1 train=0.30318 val=0.20691
+fraction_Solar_PatchTST_L288_f1_s42_6dbedd13 2 train=0.22201 val=0.19631
+fraction_Solar_PatchTST_L288_f1_s42_6dbedd13 3 train=0.21352 val=0.20004
+fraction_Solar_PatchTST_L288_f1_s42_6dbedd13 4 train=0.20795 val=0.18617
+fraction_Solar_PatchTST_L288_f1_s42_6dbedd13 5 train=0.19962 val=0.19033
+DONE fraction_Solar_PatchTST_L288_f1_s42_6dbedd13 3.1038067033929138

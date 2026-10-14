@@ -1,0 +1,282 @@
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.3) (preloaded format=xelatex.fmt)
+ restricted \write18 enabled.
+entering extended mode
+(LDI_Preliminary_Report_CN.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo))
+(F:\tools\MiKTeX\tex/latex/geometry\geometry.sty
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty)
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty))
+(F:\tools\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+For additional information on amsmath, use the `?' option.
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty))
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty)
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty))
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty))
+ (C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty)
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg)
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def)
+)) (F:\tools\MiKTeX\tex/latex/booktabs\booktabs.sty)
+(F:\tools\MiKTeX\tex/latex/caption\caption.sty
+(F:\tools\MiKTeX\tex/latex/caption\caption3.sty))
+(F:\tools\MiKTeX\tex/latex/enumitem\enumitem.sty)
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty)
+(F:\tools\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty)
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.sty
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xet
+ex.def)))
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec-xetex
+.sty (C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty)
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.cfg))
+) (F:\tools\MiKTeX\tex/latex/ctex\ctex.sty
+
+LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
+               but only release `2025-11-01' is available.
+
+(F:\tools\MiKTeX\tex/latex/ctex\ctexhook.sty
+
+LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
+               but only release `2025-11-01' is available.
+
+) (F:\tools\MiKTeX\tex/latex/ctex\ctexpatch.sty
+
+LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
+               but only release `2025-11-01' is available.
+
+) (C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/base\fix-cm.sty
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1enc.def))
+(F:\tools\MiKTeX\tex/latex/ctex/config\ctexopts.cfg)
+(F:\tools\MiKTeX\tex/latex/ctex/engine\ctex-engine-xetex.def
+(F:\tools\MiKTeX\tex/xelatex/xecjk\xeCJK.sty
+
+LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
+               but only release `2025-11-01' is available.
+
+
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xtemplate\xt
+emplate.sty) (F:\tools\MiKTeX\tex/xelatex/xecjk\xeCJK.cfg)))
+(F:\tools\MiKTeX\tex/latex/zhnumber\zhnumber.sty
+(F:\tools\MiKTeX\tex/latex/zhnumber\zhnumber-utf8.cfg))
+(F:\tools\MiKTeX\tex/latex/ctex/scheme\ctex-scheme-chinese.def
+(F:\tools\MiKTeX\tex/latex/ctex/config\ctex-name-utf8.cfg))
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty)
+(F:\tools\MiKTeX\tex/latex/ctex/fontset\ctex-fontset-windows.def))
+(F:\tools\MiKTeX\tex/latex/ctex/config\ctex.cfg)
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+(F:\tools\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty)
+(F:\tools\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty)
+(F:\tools\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+(F:\tools\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty)
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty (F:\tools\MiKTeX\tex/generic/infwarerr\infwarerr.sty)))
+(F:\tools\MiKTeX\tex/latex/hycolor\hycolor.sty)
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(F:\tools\MiKTeX\tex/latex/refcount\refcount.sty)
+(F:\tools\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+(F:\tools\MiKTeX\tex/latex/kvoptions\kvoptions.sty)))
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty)
+(F:\tools\MiKTeX\tex/generic/stringenc\stringenc.sty)
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def)
+(F:\tools\MiKTeX\tex/generic/intcalc\intcalc.sty)
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def)
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty)
+(F:\tools\MiKTeX\tex/generic/bitset\bitset.sty
+(F:\tools\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty)))
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
+(F:\tools\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+(F:\tools\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty)))
+(LDI_Preliminary_Report_CN.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg)
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+) (LDI_Preliminary_Report_CN.out) (LDI_Preliminary_Report_CN.out)
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd)
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd)
+[1] [1]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 66.
+See the caption package documentation for explanation.
+
+[2] [3] [4] [5]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 195.
+See the caption package documentation for explanation.
+
+[6]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 202.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 219.
+See the caption package documentation for explanation.
+
+[7]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 245.
+See the caption package documentation for explanation.
+
+[8] [9] [10] (LDI_Preliminary_Report_CN.aux) )
+Output written on LDI_Preliminary_Report_CN.pdf (11 pages).
+Transcript written on LDI_Preliminary_Report_CN.log.
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.3) (preloaded format=xelatex.fmt)
+ restricted \write18 enabled.
+entering extended mode
+(LDI_Preliminary_Report_CN.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo))
+(F:\tools\MiKTeX\tex/latex/geometry\geometry.sty
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty)
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty))
+(F:\tools\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+For additional information on amsmath, use the `?' option.
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty))
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty)
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty))
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty))
+ (C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty)
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg)
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def)
+)) (F:\tools\MiKTeX\tex/latex/booktabs\booktabs.sty)
+(F:\tools\MiKTeX\tex/latex/caption\caption.sty
+(F:\tools\MiKTeX\tex/latex/caption\caption3.sty))
+(F:\tools\MiKTeX\tex/latex/enumitem\enumitem.sty)
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty)
+(F:\tools\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty)
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.sty
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xet
+ex.def)))
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec-xetex
+.sty (C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty)
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.cfg))
+) (F:\tools\MiKTeX\tex/latex/ctex\ctex.sty
+
+LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
+               but only release `2025-11-01' is available.
+
+(F:\tools\MiKTeX\tex/latex/ctex\ctexhook.sty
+
+LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
+               but only release `2025-11-01' is available.
+
+) (F:\tools\MiKTeX\tex/latex/ctex\ctexpatch.sty
+
+LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
+               but only release `2025-11-01' is available.
+
+) (C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/base\fix-cm.sty
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1enc.def))
+(F:\tools\MiKTeX\tex/latex/ctex/config\ctexopts.cfg)
+(F:\tools\MiKTeX\tex/latex/ctex/engine\ctex-engine-xetex.def
+(F:\tools\MiKTeX\tex/xelatex/xecjk\xeCJK.sty
+
+LaTeX Warning: You have requested release `2026/06/01' of LaTeX,
+               but only release `2025-11-01' is available.
+
+
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xtemplate\xt
+emplate.sty) (F:\tools\MiKTeX\tex/xelatex/xecjk\xeCJK.cfg)))
+(F:\tools\MiKTeX\tex/latex/zhnumber\zhnumber.sty
+(F:\tools\MiKTeX\tex/latex/zhnumber\zhnumber-utf8.cfg))
+(F:\tools\MiKTeX\tex/latex/ctex/scheme\ctex-scheme-chinese.def
+(F:\tools\MiKTeX\tex/latex/ctex/config\ctex-name-utf8.cfg))
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty)
+(F:\tools\MiKTeX\tex/latex/ctex/fontset\ctex-fontset-windows.def))
+(F:\tools\MiKTeX\tex/latex/ctex/config\ctex.cfg)
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+(F:\tools\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty)
+(F:\tools\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty)
+(F:\tools\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+(F:\tools\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty)
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty (F:\tools\MiKTeX\tex/generic/infwarerr\infwarerr.sty)))
+(F:\tools\MiKTeX\tex/latex/hycolor\hycolor.sty)
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(F:\tools\MiKTeX\tex/latex/refcount\refcount.sty)
+(F:\tools\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+(F:\tools\MiKTeX\tex/latex/kvoptions\kvoptions.sty)))
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty)
+(F:\tools\MiKTeX\tex/generic/stringenc\stringenc.sty)
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def)
+(F:\tools\MiKTeX\tex/generic/intcalc\intcalc.sty)
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def)
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty)
+(F:\tools\MiKTeX\tex/generic/bitset\bitset.sty
+(F:\tools\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty)))
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
+(F:\tools\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+(F:\tools\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty)))
+(LDI_Preliminary_Report_CN.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg)
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+) (LDI_Preliminary_Report_CN.out) (LDI_Preliminary_Report_CN.out)
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd)
+(C:\Users\25704\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd)
+[1] [1]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 66.
+See the caption package documentation for explanation.
+
+[2] [3] [4] [5]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 195.
+See the caption package documentation for explanation.
+
+[6]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 202.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 219.
+See the caption package documentation for explanation.
+
+[7]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 245.
+See the caption package documentation for explanation.
+
+[8] [9] [10] (LDI_Preliminary_Report_CN.aux) )
+Output written on LDI_Preliminary_Report_CN.pdf (11 pages).
+Transcript written on LDI_Preliminary_Report_CN.log.

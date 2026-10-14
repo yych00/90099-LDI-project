@@ -1,0 +1,36 @@
+\begin{table}[htbp]
+\centering\small\linespread{1.1}\selectfont
+\ifdefined\ChineseReport
+\caption{数据集与预测任务概况。两个数据集分别建模，均使用 48 小时历史预测未来 24 小时。}
+\else
+\caption{Datasets and forecasting tasks. Models are fitted separately; both tasks use 48 hours of history to predict the next 24 hours.}
+\fi
+\label{tab:data}
+\begin{tabular}{lrr}
+\toprule
+\ifdefined\ChineseReport
+属性 & Electricity & Solar\\
+\midrule
+发布序列数 / 选用通道数 & 321 / 16 & 137 / 16\\
+每条序列的样本数 & 26,304 & 52,560\\
+采样间隔 & 1 小时 & 10 分钟\\
+数据年份 & 2012--2014 & 2006\\
+历史窗口 $L$（步） & 48 & 288\\
+预测时域 $H$（步） & 24 & 144\\
+日周期 $m$（步） & 24 & 144\\
+训练区间零值占比 & 0.0\% & 53.0\%\\
+\else
+Property & Electricity & Solar\\
+\midrule
+Source series / selected channels & 321 / 16 & 137 / 16\\
+Samples per series & 26,304 & 52,560\\
+Sampling interval & 1 hour & 10 minutes\\
+Source years & 2012--2014 & 2006\\
+History $L$ (steps) & 48 & 288\\
+Horizon $H$ (steps) & 24 & 144\\
+Daily period $m$ (steps) & 24 & 144\\
+Zero values in training & 0.0\% & 53.0\%\\
+\fi
+\bottomrule
+\end{tabular}
+\end{table}

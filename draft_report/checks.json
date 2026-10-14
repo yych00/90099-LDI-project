@@ -1,0 +1,38 @@
+{
+  "source_main_runs": 48,
+  "checked_metric_means_and_stds": 96,
+  "figure_hashes_match": true,
+  "new_training": false,
+  "reports": {
+    "report": {
+      "body_pages": 9,
+      "total_pages": 12,
+      "approx_section_percent": {
+        "Introduction": 14.8,
+        "Problem Definition and Scope": 34.6,
+        "Experiments": 37.3,
+        "Conclusion": 13.3
+      },
+      "four_sections": true,
+      "fourteen_subsections": true,
+      "two_tables_two_figures": true,
+      "all_nine_references_cited": true,
+      "section_allocation_in_range": true
+    },
+    "report_cn": {
+      "body_pages": 9,
+      "total_pages": 12,
+      "approx_section_percent": {
+        "引言": 14.6,
+        "问题定义与范围": 34.4,
+        "实验": 38.7,
+        "结论": 12.3
+      },
+      "four_sections": true,
+      "fourteen_subsections": true,
+      "two_tables_two_figures": true,
+      "all_nine_references_cited": true,
+      "section_allocation_in_range": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "authors": {
+    "Yuchen Yang": "1587576",
+    "Zhengnan Cao": "1711701"
+  },
+  "unit_tests_passed": 40,
+  "zip_manifest_verified": true,
+  "isolated_zip_execution_verified": true,
+  "isolated_report_build_verified": true,
+  "deterministic_baseline_reproduced": true,
+  "new_research_training": false,
+  "body_pages": {
+    "English": 9,
+    "Chinese": 9
+  },
+  "code_zip_bytes": 2348747,
+  "full_pilot_checkpoints_included": false,
+  "agreed_future_study_entrypoints": [
+    "fuller_training",
+    "validation_only_search",
+    "multiseed_sensitivity",
+    "update_budget_control",
+    "capacity_matched_ablation",
+    "channel_and_lead_errors",
+    "uniform_clipping",
+    "moving_block_intervals"
+  ]
+}

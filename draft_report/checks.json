@@ -8,10 +8,10 @@
       "body_pages": 9,
       "total_pages": 12,
       "approx_section_percent": {
-        "Introduction": 14.8,
-        "Problem Definition and Scope": 34.6,
-        "Experiments": 37.3,
-        "Conclusion": 13.3
+        "Introduction": 14.7,
+        "Problem Definition and Scope": 34.8,
+        "Experiments": 37.4,
+        "Conclusion": 13.1
       },
       "four_sections": true,
       "fourteen_subsections": true,
@@ -23,9 +23,9 @@
       "body_pages": 9,
       "total_pages": 12,
       "approx_section_percent": {
-        "引言": 14.6,
-        "问题定义与范围": 34.4,
-        "实验": 38.7,
+        "引言": 14.5,
+        "问题定义与范围": 34.9,
+        "实验": 38.3,
         "结论": 12.3
       },
       "four_sections": true,

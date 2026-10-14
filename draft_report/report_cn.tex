@@ -22,10 +22,10 @@
 \renewcommand{\textfraction}{0.1}
 \renewcommand{\floatpagefraction}{0.85}
 \newcommand{\ChineseReport}{}
-\newcommand{\sectionauthor}{\noindent\textit{章节作者：[待填写]}\par\vspace{3pt}}
+\newcommand{\sectionauthor}[1]{\noindent\textit{章节作者：#1}\par\vspace{3pt}}
 \title{\textbf{用电负荷与光伏出力的多步预测}\protect\\[8pt]
 \large ELEN90099 深度学习\protect\\Learn--Design--Implement 项目：报告草稿}
-\author{学生 1：[姓名与学号]\protect\\学生 2：[姓名与学号]}
+\author{Yuchen Yang（学号：1587576）\protect\\Zhengnan Cao（学号：1711701）}
 \date{2026 年 10 月}
 \begin{document}
 \hypersetup{pageanchor=false}
@@ -33,7 +33,7 @@
 \maketitle\thispagestyle{empty}
 \vfill
 \begin{center}\begin{minipage}{0.85\textwidth}
-\textbf{草稿状态。} 引言与项目范围已展开；后续章节结合初步发现、简要设计说明和研究计划。提交前需填写作者身份及实际章节分工。
+\textbf{草稿状态。} 引言与项目范围已展开；后续章节结合初步发现、简要设计说明和研究计划。Yuchen Yang 负责数据与预处理、实验与分析；Zhengnan Cao 负责模型与理论、引言与结论。
 \end{minipage}\end{center}
 \end{titlepage}
 \pagenumbering{roman}\hypersetup{pageanchor=true}
@@ -42,7 +42,7 @@
 % 建议比例：引言 15%，问题定义与范围 35%，实验 35%，结论 15%。
 
 \section{引言}\label{sec:introduction}
-\sectionauthor
+\sectionauthor{Zhengnan Cao}
 \subsection{项目概述与背景}
 用电需求与光伏发电量随时间变化，因此在能源供应和储能安排中，需要对未来一段时间的变化进行预测。与只预测下一个时间点相比，未来一天的完整预测轨迹可以进一步描述需求或出力在何时上升、下降。不过，预测方法也受到可用信息的限制：历史观测可以反映重复出现的规律，却不能直接提供未来天气，也未必包含异常事件发生前的线索。
 
@@ -64,7 +64,7 @@
 
 \FloatBarrier
 \section{问题定义与范围}\label{sec:problem}
-\sectionauthor
+\sectionauthor{Zhengnan Cao：2.1、2.3--2.4 节；Yuchen Yang：2.2 节}
 \subsection{问题定义与预测任务}
 本项目采用直接多步回归。令 $X\in\mathbb{R}^{T\times C}$ 表示包含 $T$ 个时间点、$C=16$ 个通道的观测序列。在预测起点 $t$，模型读取历史窗口并估计完整的未来目标：
 \begin{equation}\label{eq:task}
@@ -109,18 +109,19 @@ Electricity Hourly 与 Solar 10 Minutes 文件来自 Monash 所链接的正式�
 注意力实现使用四个头、128 维前馈层、0.1 dropout 和可学习位置编码。它采用训练区间标准化，未实现原模型完整的归一化流程。两种现代模型均为本地编写的具体实现，所以实验对比针对这些设计，不宣称覆盖或复现所有已发表版本。
 
 \subsection{理论基础与方法设计依据}
-模型选择将课程中的概念与任务结构联系起来。以下要点提出需要通过实验检验的依据，而不是假定结果已经证明的机制。
+以下说明各模型的类型、处理历史数据的方式和选择原因，实际效果由实验检验。
 \begin{itemize}
-\item \textbf{记忆与压缩：} 循环门控可以保留有用历史，但用最终状态概括整个窗口也形成了压缩瓶颈。对于 Solar 的 144 步输出，这一问题可能比 Electricity 的 24 步输出更突出。
-\item \textbf{局部特征共享：} 卷积在不同时间位置复用滤波器。两层宽度为三的卷积在池化前具有五步局部感受野；池化汇聚整个已观测历史，并不使该网络成为扩张时间卷积网络。
-\item \textbf{机制组合：} 混合网络可能先提取局部变化，再由循环模块处理。不过，与 LSTM 的比较同时改变了输入表示和容量，因此不能视为只针对卷积的独立消融。
-\item \textbf{分解与注意力：} DLinear 对平滑变化与剩余变化施加简单的结构划分，时间块表示则减少注意力 token 数。剩余项不一定是纯季节项，注意力权重也不能单独解释物理原因。
+\item \textbf{LSTM 和 GRU（循环神经网络）：} 按时间顺序读取数据，用门控保留有用历史，检验记忆是否能帮助预测。但将整个窗口压缩为一个最终状态，也可能丢失信息。
+\item \textbf{1D-CNN（一维卷积神经网络）：} 用共享滤波器寻找短时间内的上升或下降，检验局部变化是否有助于预测；学到短期模式不代表也能学到长期规律。
+\item \textbf{CNN--LSTM（卷积与循环混合模型）：} 先由 CNN 提取局部特征，再由 LSTM 处理时间顺序，检验两者结合是否有帮助。它也增加了参数，不能把效果变化全部归因于卷积。
+\item \textbf{DLinear（分解与线性预测模型）：} 用移动平均得到平滑部分和剩余部分，两者分别经线性映射预测后相加，检验简单结构是否足够有效。剩余部分不一定是日周期变化。
+\item \textbf{PatchTST 风格模型（时间块 Transformer）：} 把连续时间点组成块，用注意力寻找有用历史片段，检验分块与逐点处理的差别。各通道独立计算并共享权重，不直接建模通道之间的关系。
 \end{itemize}
-相同步数的设置并不对应相同的实际时间。25 步移动平均在 Electricity 上覆盖 25 小时，在 Solar 上仅覆盖 4 小时 10 分钟；16 步时间块分别覆盖 16 小时和 2 小时 40 分钟。这些差异可能影响排名，在将结果归因于模型类型之前需要进一步研究。通道独立设计也为循环和卷积模型的多通道联合处理提供了对照。
+比较时还要注意采样频率。DLinear 的 25 步移动平均在 Electricity 上覆盖 25 小时，在 Solar 上覆盖 4 小时 10 分钟；PatchTST 风格模型的 16 步时间块分别覆盖 16 小时和 2 小时 40 分钟。因此，即使步数相同，模型看到的实际时间范围也不同，这也可能影响结果。
 
 \FloatBarrier
 \section{实验}\label{sec:experiments}
-\sectionauthor
+\sectionauthor{Yuchen Yang}
 \subsection{实验设置}
 每套数据内部的初步实验采用共同协议。以下设置描述已完成的运行；更充分训练与新增控制实验仍属于计划。
 \begin{itemize}
@@ -178,7 +179,7 @@ Solar 上，日周期朴素模型具有最低的整体 MAE（2.198）和 MASE（
 
 \FloatBarrier
 \section{结论}\label{sec:conclusion}
-\sectionauthor
+\sectionauthor{Zhengnan Cao}
 \subsection{项目反思与综合讨论}
 初步研究的主要认识是：有用的模型对比应从明确任务和强基线开始。在固定 Electricity 子集上，当前时间块注意力设计相对于日周期朴素模型改善了三项整体误差。Solar 上，日周期重复仍具有更低的整体 MAE 和 MASE，而卷积及其他可训练模型在不同指标或出力条件下表现出优势。因此，初始问题的答案依赖具体任务及评价目标。
 

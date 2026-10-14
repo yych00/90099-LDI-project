@@ -17,10 +17,10 @@
 \renewcommand{\bottomfraction}{0.8}
 \renewcommand{\textfraction}{0.1}
 \renewcommand{\floatpagefraction}{0.85}
-\newcommand{\sectionauthor}{\noindent\textit{Section author: [to be completed]}\par\vspace{3pt}}
+\newcommand{\sectionauthor}[1]{\noindent\textit{Section author: #1}\par\vspace{3pt}}
 \title{\textbf{Multi-Step Forecasting of Electricity Demand\protect\\and Solar Power Generation}\protect\\[8pt]
 \large ELEN90099 Deep Learning\protect\\Learn--Design--Implement Project: Draft Report}
-\author{Student 1: [Name and student ID]\protect\\Student 2: [Name and student ID]}
+\author{Yuchen Yang (Student ID: 1587576)\protect\\Zhengnan Cao (Student ID: 1711701)}
 \date{October 2026}
 \begin{document}
 \hypersetup{pageanchor=false}
@@ -28,7 +28,7 @@
 \maketitle\thispagestyle{empty}
 \vfill
 \begin{center}\begin{minipage}{0.85\textwidth}
-\textbf{Draft status.} The introduction and project scope are developed; later sections combine initial findings with concise design notes and planned work. Author details and actual section responsibilities must be completed before submission.
+\textbf{Draft status.} The introduction and project scope are developed; later sections combine initial findings with concise design notes and planned work. Yuchen Yang is responsible for data preparation and experimental analysis; Zhengnan Cao is responsible for models, theory, the introduction and conclusion.
 \end{minipage}\end{center}
 \end{titlepage}
 \pagenumbering{roman}\hypersetup{pageanchor=true}
@@ -37,7 +37,7 @@
 % Suggested allocation: Introduction 15%, Problem 35%, Experiments 35%, Conclusion 15%.
 
 \section{Introduction}\label{sec:introduction}
-\sectionauthor
+\sectionauthor{Zhengnan Cao}
 \subsection{Overview and Background}
 Electricity demand and solar generation vary over time, creating a need for forecasts when planning energy supply and storage. A forecast of the next day's trajectory is more informative than a single next-step estimate because it describes when demand or output may rise and fall. However, a forecasting model must also recognise the limits of its information. Historical observations can reveal recurring patterns, but cannot directly provide future weather conditions or explain every unusual event.
 
@@ -59,7 +59,7 @@ The tasks are to prepare fixed subsets, define a common evaluation protocol, imp
 
 \FloatBarrier
 \section{Problem Definition and Scope}\label{sec:problem}
-\sectionauthor
+\sectionauthor{Zhengnan Cao: Sections 2.1, 2.3--2.4; Yuchen Yang: Section 2.2}
 \subsection{Problem Definition and Forecasting Task}
 The task is direct multi-step regression. Let $X\in\mathbb{R}^{T\times C}$ contain $T$ observations across $C=16$ channels. At origin $t$, a model receives the historical window and estimates the complete future target:
 \begin{equation}\label{eq:task}
@@ -104,18 +104,19 @@ The implementation uses a shared forecasting interface with two non-learning bas
 The attention implementation uses four heads, feed-forward width 128, dropout 0.1 and learned positions. It uses training-set scaling and does not implement the original model's full normalisation pipeline. Both modern models are self-written implementations of selected ideas. The study therefore compares these concrete designs, rather than claiming to reproduce every published variant.
 
 \subsection{Theoretical Foundations and Design Rationale}
-The model choices connect course concepts to the structure of the task. The following points state the reasoning to be tested, rather than assumptions that the results already prove.
+Each model represents the history differently; experiments test whether these choices help.
 \begin{itemize}
-\item \textbf{Memory and compression:} recurrent gates can retain useful historical information, but representing an entire window through the final state creates a compression bottleneck. This may matter more for Solar's 144-step output than for Electricity's 24-step output.
-\item \textbf{Local feature sharing:} convolution reuses filters across time. The two width-three convolutions have a five-step local receptive field before pooling. Pooling aggregates the observed history; it does not make the network a dilated temporal convolutional model.
-\item \textbf{Combining mechanisms:} the hybrid may extract local changes before recurrence. Its comparison with LSTM also changes input representation and capacity, so it is not an isolated ablation of convolution.
-\item \textbf{Decomposition and attention:} DLinear imposes a simple separation of smooth and residual variation. Patching reduces the number of attention tokens. The residual need not be a pure seasonal component, and attention weights alone do not explain physical causes.
+\item \textbf{LSTM and GRU (recurrent networks):} use gates to keep useful history while reading observations in time order. They test whether memory helps forecasting, although compressing the history into one final state can lose information.
+\item \textbf{1D-CNN (1D convolutional network):} uses shared filters to find local rises or falls. It tests whether short changes help prediction, without guaranteeing that longer patterns are captured.
+\item \textbf{CNN--LSTM (convolutional--recurrent hybrid):} combines CNN features with LSTM memory. It tests whether the combination helps, but extra parameters also change the comparison.
+\item \textbf{DLinear (decomposition and linear model):} forecasts a moving-average component and its remainder using two linear maps, then adds the outputs. It tests a simple alternative; the remainder is not necessarily daily variation.
+\item \textbf{PatchTST-style (patch-based Transformer):} uses attention between groups of consecutive points. It tests patch representations against individual points. Channels are processed separately with shared weights, without direct cross-channel modelling.
 \end{itemize}
-Equal settings in steps are not equal settings in physical time. A 25-step average spans 25 hours for Electricity but 4 hours 10 minutes for Solar. A 16-step patch spans 16 hours versus 2 hours 40 minutes. These differences may affect rankings and should be investigated before attributing results solely to model families. Channel-independent processing also provides a useful contrast to the jointly processed inputs of recurrent and convolutional models.
+Sampling frequency also affects the comparison. DLinear's 25-step average covers 25 hours for Electricity but 4 hours 10 minutes for Solar. PatchTST-style's 16-step patches cover 16 hours versus 2 hours 40 minutes. Equal step counts therefore represent different time spans.
 
 \FloatBarrier
 \section{Experiments}\label{sec:experiments}
-\sectionauthor
+\sectionauthor{Yuchen Yang}
 \subsection{Experimental Setup}
 The initial experiments use one common protocol within each dataset. The settings below describe completed runs; longer training and additional controls remain planned work.
 \begin{itemize}
@@ -173,7 +174,7 @@ Raw negative predictions remain in the main scores. Uniform clipping can be stud
 
 \FloatBarrier
 \section{Conclusion}\label{sec:conclusion}
-\sectionauthor
+\sectionauthor{Zhengnan Cao}
 \subsection{Reflection and Overall Discussion}
 The main lesson of the initial project is that a useful comparison begins with a clearly defined task and strong baselines. On the fixed Electricity subset, the current patch-attention design improves the three overall error metrics relative to daily naive. On Solar, daily repetition remains stronger on overall MAE and MASE, while convolutional and other trainable models show advantages under different metrics or output conditions. These findings answer the initial question in a task-dependent way.
 
